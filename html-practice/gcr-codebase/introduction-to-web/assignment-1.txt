@@ -1,0 +1,113 @@
+1. Explain the difference between frontend, backend, and full-stack development with
+suitable real-world examples.
+
+ans-:In web development, frontend and backend are two main parts of a website.
+Frontend is the part which we can see and use on a website. For example, buttons, images, forms, menu, colors etc. HTML, CSS and JavaScript are mainly used for frontend development.
+Backend is the part which works behind the website. It handles data, login details, requests and connection with database. Languages and technologies like Java, Python, PHP and Node.js can be used for backend.
+Full-stack means working on both frontend and backend.
+Example: In a shopping website, the product page and Add to Cart button are frontend, while storing user details and processing orders are backend. A developer who can work on both is called a full-stack developer.
+
+2. Create a simple diagram showing how the client-server model works in web architecture.
+
+ans-:The client-server model is a system where the client sends a request and the server gives a response.
+For example, when we open a website in Chrome, Chrome acts as a client. It sends a request to the web server. The server receives the request and sends the required webpage back.
+    +---------------+       Request        +---------------+
+|               | -------------------> |               |
+| Client/Browser|                      |  Web Server   |
+|               | <------------------- |               |
++---------------+       Response       +---------------+
+
+3. Describe how a browser requests and displays a web page from a web server.
+ans-:When we enter a website address in a browser, the browser first finds the server where that website is available.
+Then the browser sends an HTTP or HTTPS request to the web server. The server receives the request and sends the required files such as HTML, CSS and JavaScript.
+After receiving these files, the browser reads them and displays the final webpage on our screen.
+
+4. Identify and list the tools required to set up a web development environment. Explain the
+purpose of each.
+ans-:1. VS Code:
+I use VS Code to write and edit HTML, CSS and JavaScript code. It provides many extensions which make coding easier.
+
+2. Web Browser:
+A browser like Google Chrome is used to open and test our website.
+
+3. Live Server:
+It is a VS Code extension. It helps us run our HTML page in the browser and automatically refreshes the page after changes.
+
+4. Git:
+Git is used to keep track of changes made in our project. It is also useful for version control.
+
+5. GitHub:
+GitHub is used to store our projects online. We can also share our project with other people using a GitHub repository.
+
+6. Node.js:
+Node.js is useful when we want to use JavaScript outside the browser, especially for backend development
+
+5. Explain what a web server is and give examples of commonly used servers.
+ans-:A web server is a software/system which receives requests from users and sends the required web content back to them.
+
+For example, when we open a website in Chrome, the browser sends a request to the web server. The server finds the requested page or data and sends it back to our browser.
+
+The simple working is:
+
+Browser → Request → Web Server
+Browser ← Response ← Web Server
+
+6. Define the roles of a frontend developer, backend developer, and database administrator
+in a project.
+ ans-:Frontend Developer:
+A frontend developer makes the part of a website that users can see and use. They mainly work with HTML, CSS and JavaScript.
+
+Backend Developer:
+A backend developer works on the server side. They handle login, data processing and other website functions.
+
+Database Administrator (DBA):
+A database administrator manages the database. They keep the data safe and organized.
+
+7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a
+screenshot of the setup.
+ans-:To set up VS Code for web development:
+
+Download and install VS Code.
+Open VS Code.
+Install the Live Server extension.
+Create a new folder for the project.
+Create index.html, style.css and script.js files.
+Open index.html using Live Server.
+The webpage will open in the browser.
+
+8. Explain the difference between static and dynamic websites. Provide an example of
+each.
+ans-:A static website shows mostly the same content to every user. Its content does not change automatically.
+
+Example: A simple portfolio website.
+
+A dynamic website can show different or updated content based on the user or data.
+
+Example: A shopping website where products, cart and user details can change.
+
+9. Research and list five web browsers. Explain how rendering engines differ between
+them.
+ans-:| Browser         | Rendering Engine |
+| --------------- | ---------------- |
+| Google Chrome   | Blink            |
+| Microsoft Edge  | Blink            |
+| Mozilla Firefox | Gecko            |
+| Safari          | WebKit           |
+| Opera           | Blink            |
+
+
+10. Draw a labeled diagram showing the basic web architecture flow — client, server,
+database, and APIs.
+ans-:+--------+       +--------+       +----------+
+| Client | ----> | Server | ----> | Database |
++--------+       +--------+       +----------+
+                    |
+                    |
+                    v
+                +--------+
+                |  APIs  |
+                +--------+
+Client: User opens the website in a browser.
+Server: Receives and processes the request.
+Database: Stores website data.
+API: Helps different applications or services communicate.
