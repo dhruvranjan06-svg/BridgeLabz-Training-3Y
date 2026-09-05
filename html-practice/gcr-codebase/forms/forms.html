@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+</head>
+
+<body>
+
+    <h1>    Student  Resistration  Form</h1>
+    <style>
+        h1 {
+        text-align: center;
+    }
+    form {
+        width: 500px;
+        background-color: rgb(187, 255, 0);
+        border: 3px solid rgba(0, 0, 0, 0.411); 
+        margin: 30px auto;
+        padding: 40px;
+    }
+     label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+select {
+    margin-bottom: 15px;
+}
+
+</style>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name">
+
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email">
+
+        <br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <br>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter Age">
+
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br>
+
+        <label>Skills:</label
+
+<input type="checkbox" id="html" name="skill" value="HTML">
+<label for="html">HTML</label>
+
+<input type="checkbox" id="css" name="skill" value="CSS">
+<label for="css">CSS</label>
+
+<input type="checkbox" id="js" name="skill" value="JavaScript">
+<label for="js">JavaScript</label>
+
+<br>
+<label for="file">Upload File:</label>
+<input type="file" id="file" name="file">
+<br>
+<label for="branch">Branch:</label>
+
+<select id="branch" name="branch">
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="ME">ME</option>
+    <option value="CE">CE</option>
+    <option value="EE">EE</option>
+</select>
+<br>
+<!-- Notes -->
+<label for="notes">Notes:</label>
+<br>
+
+<textarea
+    id="notes"
+    name="notes"
+    rows="5"
+    cols="40">
+</textarea>
+
+<br>
+
+<input type="button" value="Registration">
+
+<input type="reset" value="Cancel">
+
+<input type="submit" value="Submit"> 
+        
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=xYPHsIDj3gxTyVEu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</html>

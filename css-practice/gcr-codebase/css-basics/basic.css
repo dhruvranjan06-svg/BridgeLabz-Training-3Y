@@ -1,0 +1,67 @@
+h2{
+    color: blueviolet;
+    background-color: brown;
+    
+}
+a,li{
+    color: black;
+}
+ li{
+    color: black;
+} 
+ .hello{
+    color: burlywood;
+ }
+ #nihal{
+    color: black;
+    background-color: darkcyan;
+ }
+ h1 {
+    color: red;
+}
+
+.heading {
+    color: blue;
+}
+
+#title {
+    color: green;
+}
+div p {
+    color: red;
+}
+div > p {
+    color: blue;
+}
+
+
+h1 + p {
+    color: red;
+}
+h1 ~ p {
+    color: green;
+}
+
+
+button:hover {
+    color: red;
+}
+button:active {
+    color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+
+p:first-child {
+    color: red;
+}
+p:last-child {
+    color: blue;
+}
+  /* *{
+    color: orange;
+    background-color: black;
+  } */

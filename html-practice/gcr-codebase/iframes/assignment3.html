@@ -1,0 +1,431 @@
+1. Create an HTML file that embeds a YouTube video using an <iframe>.
+Set the width and height using only percentage values (not pixels) to make it adjust when
+resizing the browser.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Video</title>
+</head>
+<body>
+
+<h2>My YouTube Video</h2>
+
+<iframe width="80%" height="50%"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+</iframe>
+
+</body>
+</html>
+
+
+ 2. Embed a Google Map showing your school or city using an <iframe>.
+Use title, width, height, and loading="lazy" attributes. Add a comment explaining
+what the loading attribute does.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My City Map</title>
+</head>
+<body>
+
+<h2>My City</h2>
+
+<!-- loading="lazy" loads the map only when it is needed -->
+<iframe
+    src="https://www.google.com/maps?q=Delhi&output=embed"
+    title="Google Map of Delhi"
+    width="600"
+    height="450"
+    loading="lazy">
+</iframe>
+
+</body>
+</html>
+
+
+
+3. Create an HTML file with two iframes displayed one below another:
+● The first iframe should display your introduction page.
+● The second iframe should display your favorite hobby page.
+Use width and height attributes to make them look balanced.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Pages</title>
+</head>
+<body>
+
+<h2>My Introduction</h2>
+<iframe srcdoc="<h2>My Introduction</h2><p>My name is Dhruv. I am a student.</p>" width="80%" height="200"></iframe>
+
+<h2>My Hobby</h2>
+<iframe srcdoc="<h2>My Hobby</h2><p>My favorite hobby is playing cricket.</p>" width="80%" height="200"></iframe>
+
+</body>
+</html>
+
+
+
+4. Create a frameset layout using <frameset> and <frame> tags:
+● Top frame → Navigation links (Home, About, Contact)
+● Bottom frame → Displays a message “Welcome to My Website”
+(Use only HTML — no CSS.)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+
+<frameset rows="30%,70%">
+    <frame src="navigation.html">
+    <frame src="message.html">
+</frameset>
+
+</html>
+
+
+
+
+5. Create a web page that includes a complete <head> section with:
+● <meta charset="UTF-8">
+● <meta name="author">
+● <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+● <title>
+Below, add a paragraph with English, Hindi, and Japanese text to verify UTF-8 encoding.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dhruv">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTF-8 Example</title>
+</head>
+<body>
+
+<p>Hello, नमस्ते, こんにちは</p>
+
+</body>
+</html>
+
+
+
+
+
+6. Create a User Registration Form with the following fields:
+● Full Name
+● Email Address
+● Password
+
+● Confirm Password
+Make all fields required using the required attribute.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+    Full Name: <input type="text" required><br><br>
+    Email: <input type="email" required><br><br>
+    Password: <input type="password" required><br><br>
+    Confirm Password: <input type="password" required><br><br>
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
+7. Build a Login Form with fields for username and password.
+Add a hidden input field with a dummy CSRF token value.
+Write an HTML comment explaining the purpose of a CSRF token.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Login</h2>
+
+<form>
+    Username: <input type="text" required><br><br>
+    Password: <input type="password" required><br><br>
+
+    <!-- CSRF token helps protect the form from unauthorized requests -->
+    <input type="hidden" name="csrf" value="12345">
+
+    <input type="submit" value="Login">
+</form>
+
+</body>
+</html>
+
+8. Design a Feedback Form that includes:
+● A textarea for feedback
+● Radio buttons for rating (Good, Average, Poor)
+● A submit button
+Use method="post" and action="#".
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Feedback Form</h2>
+
+<form method="post" action="#">
+    <textarea placeholder="Enter your feedback"></textarea><br><br>
+
+    <input type="radio" name="rating"> Good
+    <input type="radio" name="rating"> Average
+    <input type="radio" name="rating"> Poor
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+9. Create a File Upload Form where users can upload only .jpg or .png files.
+Use the accept attribute to restrict file types.
+Include a short note in a <p> tag describing what kind of files are allowed.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Upload File</h2>
+
+<form>
+    <input type="file" accept=".jpg,.png">
+    <input type="submit" value="Upload">
+</form>
+
+<p>Only JPG and PNG files are allowed.</p>
+
+</body>
+</html>
+
+10. Create a Contact Form with the following:
+● Full Name
+● Email
+● Subject
+● Message (textarea)
+Use the placeholder and required attributes properly.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Contact Form</h2>
+
+<form>
+    <input type="text" placeholder="Full Name" required><br><br>
+    <input type="email" placeholder="Email" required><br><br>
+    <input type="text" placeholder="Subject" required><br><br>
+    <textarea placeholder="Message" required></textarea><br><br>
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
+
+
+
+11. Design a form that collects student information — Name, Roll Number, and Course.
+Use a <select> dropdown for choosing a course.
+Include an option that says “Select Course” as default (disabled and selected).
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Student Information</h2>
+
+<form>
+    <input type="text" placeholder="Name" required><br><br>
+    <input type="text" placeholder="Roll Number" required><br><br>
+
+    <select required>
+        <option disabled selected>Select Course</option>
+        <option>BCA</option>
+        <option>B.Tech</option>
+        <option>MCA</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+12. Create a paragraph that uses HTML entities to display:
+● <, >, &, ", and '
+Also include ©, TM, and ® symbols using entities.
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>&lt; &gt; &amp; &quot; &apos; &copy; &trade; &reg;</p>
+
+</body>
+</html>
+13.Create a webpage that includes text written in three languages (English, Hindi, and French).
+Add <meta charset="UTF-8"> inside <head> to ensure proper rendering of all characters.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Languages</title>
+</head>
+<body>
+
+<p>Hello, नमस्ते, Bonjour</p>
+
+</body>
+</html>
+
+14. Use an <iframe> to embed an external website (e.g., https://www.wikipedia.org).
+Below it, write a paragraph saying:
+“Some websites may not allow embedding for security reasons.”
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="https://www.wikipedia.org" width="80%" height="400"></iframe>
+
+<p>Some websites may not allow embedding for security reasons.</p>
+
+</body>
+</html>
+
+15. Create a Payment Form with fields for:
+● Cardholder Name
+● Card Number
+● Expiry Date
+● CVV
+Add the required attribute to all fields and include a “Pay Now” button.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Payment Form</h2>
+
+<form>
+    <input type="text" placeholder="Cardholder Name" required><br><br>
+    <input type="text" placeholder="Card Number" required><br><br>
+    <input type="text" placeholder="Expiry Date" required><br><br>
+    <input type="password" placeholder="CVV" required><br><br>
+    <input type="submit" value="Pay Now">
+</form>
+
+</body>
+</html>
+
+16. Create a webpage that demonstrates URI encoding.
+Add a hyperlink that includes special characters in its URL, for example:
+https://example.com/search?query=HTML & CSS
+Write the correct encoded version of this link using %20 for spaces.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<a href="https://example.com/search?query=HTML%20%26%20CSS">
+    Search HTML & CSS
+</a>
+
+</body>
+</html>
+
+
+17. Create two HTML files:
+● form.html → Contains a form with a text input and a submit button.
+● result.html → Displays a message “Form successfully submitted.”
+Use an <iframe> in form.html to load result.html after clicking Submit.
+    <!DOCTYPE html>
+<html>
+<body>
+
+<form target="result">
+    <input type="text" required>
+    <input type="submit" value="Submit">
+</form>
+
+<iframe name="result" src="result.html"></iframe>
+<p>Form successfully submitted.</p>
+</body>
+</html>
+18. Write a paragraph that includes both long and short quotations:
+● Use <blockquote> for a long quote.
+● Use <q> for a short quote inside another paragraph.
+Also include one HTML entity in the quote (e.g., &amp;, &lt;).
+<!DOCTYPE html>
+<html>
+<body>
+
+<blockquote>
+    This is a long quotation about HTML &amp; web development.
+</blockquote>
+
+<p>My teacher said, <q>Learn HTML first.</q></p>
+
+</body>
+</html>
+19. Create a web page demonstrating HTML form security attributes:
+● Add autocomplete="off" to the form.
+● Use required on all input fields.
+Below the form, write a note explaining why turning off autocomplete can improve
+security.
+<!DOCTYPE html>
+<html>
+<body>
+
+<form autocomplete="off">
+    <input type="text" required placeholder="Username"><br><br>
+    <input type="password" required placeholder="Password"><br><br>
+    <input type="submit" value="Login">
+</form>
+
+<p>Turning off autocomplete can help prevent sensitive data from being stored.</p>
+
+</body>
+</html>
+<!-- 20. Create a page that includes all important <head> elements:
+● <title>
+● <meta> (charset, description, author)
+● <base> (to set base URL)
+● <link> (to favicon or other resource)
+● <style> (can be empty)
+● <script> (can be empty)
+Add comments explaining what each tag is used for. --> 
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Sets the page title -->
+    <title>My Website</title>
+
+    <!-- Provides page information -->
+    <meta charset="UTF-8">
+    <meta name="description" content="My HTML Website">
+    <meta name="author" content="Dhruv">
+
+    <!-- Sets the base URL -->
+    <base href="https://example.com/">
+
+    <!-- Links an external resource -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Used for CSS -->
+    <style></style>
+
+    <!-- Used for JavaScript -->
+    <script></script>
+
+</head>
+<body>
+
+<h1>Welcome</h1>
+
+</body>
+</html>

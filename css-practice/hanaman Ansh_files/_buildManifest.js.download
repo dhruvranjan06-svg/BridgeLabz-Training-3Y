@@ -1,0 +1,237 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/0g6g8bco61pti.js"
+  ],
+  "/404": [
+    "static/chunks/0c1_1co9eiwx2.js"
+  ],
+  "/[slug]": [
+    "static/chunks/2fsfo16hl0p5e.js"
+  ],
+  "/_error": [
+    "static/chunks/0cy-idtl_5fym.js"
+  ],
+  "/cinema-near-me": [
+    "static/chunks/0klwhnghfbwhm.js"
+  ],
+  "/cinemas/city/[city]": [
+    "static/chunks/1zn0ousxy-bya.js"
+  ],
+  "/cinemas/provider/[providerChain]": [
+    "static/chunks/2_swp847css_6.js"
+  ],
+  "/cinemas/provider/[providerChain]/[city]": [
+    "static/chunks/22tng8c-xvoqs.js"
+  ],
+  "/food-and-beverages": [
+    "static/chunks/10nk_oy949ooz.js"
+  ],
+  "/food-and-beverages/[code]/cart": [
+    "static/chunks/3xmgcn80sypgp.js"
+  ],
+  "/food-and-beverages/[code]/menu": [
+    "static/chunks/2u2enijmqw3i2.js"
+  ],
+  "/h5movies": [
+    "static/chunks/11jlk3lqel_p6.js"
+  ],
+  "/h5movies/[slug]": [
+    "static/chunks/44wgmsjvcbjm2.js"
+  ],
+  "/h5movies/[slug]/[cinemaId]": [
+    "static/chunks/3itwjh7xb1rns.js"
+  ],
+  "/h5movies/app-upgrade": [
+    "static/chunks/05jizk8h2d64o.js"
+  ],
+  "/h5movies/cinema-near-me": [
+    "static/chunks/1nrdhpny_o_08.js"
+  ],
+  "/h5movies/contact": [
+    "static/chunks/3_05d0kq94i6o.js"
+  ],
+  "/h5movies/frequently-asked-questions": [
+    "static/chunks/1mqvsfeyoyhex.js"
+  ],
+  "/h5movies/live-food-and-beverages": [
+    "static/chunks/44u_y2wa_2dii.js"
+  ],
+  "/h5movies/live-food-and-beverages/[code]/cart": [
+    "static/chunks/1jp4vo3e-fc9-.js"
+  ],
+  "/h5movies/live-food-and-beverages/[code]/inventory": [
+    "static/chunks/1c9kynf8__q5_.js"
+  ],
+  "/h5movies/myorders": [
+    "static/chunks/0vixnvwc6289j.js"
+  ],
+  "/h5movies/myorders/[bookingid]": [
+    "static/chunks/1sempx0rmoayf.js"
+  ],
+  "/h5movies/order-history": [
+    "static/chunks/04nyma79apoh0.js"
+  ],
+  "/h5movies/order-review": [
+    "static/chunks/22i1ohax0aijz.js"
+  ],
+  "/h5movies/order-review-premiere": [
+    "static/chunks/251e62ntjhquv.js"
+  ],
+  "/h5movies/order-review-premiere/[frmtid]": [
+    "static/chunks/1bzj5k5pirah3.js"
+  ],
+  "/h5movies/order-review/[frmtid]": [
+    "static/chunks/1ezrsw_22-e-2.js"
+  ],
+  "/h5movies/orders/[orderId]": [
+    "static/chunks/1hubup6sgpdp1.js"
+  ],
+  "/h5movies/profile": [
+    "static/chunks/1t63210lnbz47.js"
+  ],
+  "/h5movies/promo-wall": [
+    "static/chunks/0uladovcwv8e0.js"
+  ],
+  "/h5movies/search": [
+    "static/chunks/3yw4661w3msze.js"
+  ],
+  "/h5movies/seat-layout": [
+    "static/chunks/3c18qzl7o-b89.js"
+  ],
+  "/h5movies/seat-layout/[frmtid]": [
+    "static/chunks/10oi1jf95poyz.js"
+  ],
+  "/h5movies/select-partner-city": [
+    "static/chunks/23ueoc0o7jfgz.js"
+  ],
+  "/h5movies/terms-and-conditions": [
+    "static/chunks/0rzx5ogk5bnf6.js"
+  ],
+  "/h5movies/trailer-drops/[encodeddata]": [
+    "static/chunks/19v18u_ujk-77.js"
+  ],
+  "/h5movies/upcoming-movies": [
+    "static/chunks/2d088nxmcp0mv.js"
+  ],
+  "/h5movies/youtube-video": [
+    "static/chunks/0eps2tiiujjuo.js"
+  ],
+  "/h5movies/youtubeplayer/[encodeddata]": [
+    "static/chunks/3ki96y06-afrk.js"
+  ],
+  "/live-food-and-beverages": [
+    "static/chunks/029i0onavpqa4.js"
+  ],
+  "/live-food-and-beverages/[code]/cart": [
+    "static/chunks/1bku0zx9tyzxl.js"
+  ],
+  "/live-food-and-beverages/[code]/inventory": [
+    "static/chunks/0mz32p_xd994j.js"
+  ],
+  "/order-review": [
+    "static/chunks/1ftrbken8jo66.js"
+  ],
+  "/order-review/[frmtid]": [
+    "static/chunks/05_i7rvvyqhij.js"
+  ],
+  "/order/[orderid]": [
+    "static/chunks/1kpjco1nje3yf.js"
+  ],
+  "/policies/privacy": [
+    "static/chunks/1j4kkp556o8gv.js"
+  ],
+  "/policies/terms-of-service": [
+    "static/chunks/3-5kmga5qpmqx.js"
+  ],
+  "/seat-layout": [
+    "static/chunks/2ri9btt_rlzdi.js"
+  ],
+  "/seat-layout/[frmtid]": [
+    "static/chunks/3-gousiamagdy.js"
+  ],
+  "/upcoming-movies": [
+    "static/chunks/3a39r7zmv9fxa.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [
+      {
+        "source": "/movies/cinemas-in-:city",
+        "destination": "/movies/cinemas/city/:city"
+      },
+      {
+        "source": "/movies/:providerChain-cinemas",
+        "destination": "/movies/cinemas/provider/:providerChain"
+      },
+      {
+        "source": "/movies/:providerChain-cinemas-in-:city((?!.+-CD\\d+$).+)",
+        "destination": "/movies/cinemas/provider/:providerChain/:city"
+      },
+      {
+        "source": "/movies/search-sitemap/:match(.*\\.xml)"
+      }
+    ],
+    "beforeFiles": [
+      {
+        "source": "/movies-web/_next/:path+",
+        "destination": "/movies/_next/:path+"
+      }
+    ],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/404",
+    "/_app",
+    "/_error",
+    "/api/canvasproxy",
+    "/api/health",
+    "/cinema-near-me",
+    "/cinemas/city/[city]",
+    "/cinemas/provider/[providerChain]",
+    "/cinemas/provider/[providerChain]/[city]",
+    "/food-and-beverages",
+    "/food-and-beverages/[code]/cart",
+    "/food-and-beverages/[code]/menu",
+    "/h5movies",
+    "/h5movies/app-upgrade",
+    "/h5movies/cinema-near-me",
+    "/h5movies/contact",
+    "/h5movies/frequently-asked-questions",
+    "/h5movies/live-food-and-beverages",
+    "/h5movies/live-food-and-beverages/[code]/cart",
+    "/h5movies/live-food-and-beverages/[code]/inventory",
+    "/h5movies/myorders",
+    "/h5movies/myorders/[bookingid]",
+    "/h5movies/order-history",
+    "/h5movies/order-review",
+    "/h5movies/order-review/[frmtid]",
+    "/h5movies/order-review-premiere",
+    "/h5movies/order-review-premiere/[frmtid]",
+    "/h5movies/orders/[orderId]",
+    "/h5movies/profile",
+    "/h5movies/promo-wall",
+    "/h5movies/search",
+    "/h5movies/seat-layout",
+    "/h5movies/seat-layout/[frmtid]",
+    "/h5movies/select-partner-city",
+    "/h5movies/terms-and-conditions",
+    "/h5movies/trailer-drops/[encodeddata]",
+    "/h5movies/upcoming-movies",
+    "/h5movies/youtube-video",
+    "/h5movies/youtubeplayer/[encodeddata]",
+    "/h5movies/[slug]",
+    "/h5movies/[slug]/[cinemaId]",
+    "/live-food-and-beverages",
+    "/live-food-and-beverages/[code]/cart",
+    "/live-food-and-beverages/[code]/inventory",
+    "/order/[orderid]",
+    "/order-review",
+    "/order-review/[frmtid]",
+    "/policies/privacy",
+    "/policies/terms-of-service",
+    "/seat-layout",
+    "/seat-layout/[frmtid]",
+    "/upcoming-movies",
+    "/[slug]"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
