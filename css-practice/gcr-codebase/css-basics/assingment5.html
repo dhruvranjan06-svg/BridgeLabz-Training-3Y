@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - HTML CSS</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="assingment5.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     Q1. PERSONAL PORTFOLIO
+     Fixed header, navigation, bio, profile image and footer
+     ===================================================== -->
+
+<section id="q1" class="question q1">
+
+    <header class="portfolio-header">
+        <h1>Dhruv Ranjan</h1>
+
+        <nav>
+            <a href="#q1">Home</a>
+            <a href="#q2">About</a>
+            <a href="#q7">Contact</a>
+        </nav>
+    </header>
+
+    <main class="portfolio-main">
+
+        <div class="portfolio-text">
+            <p class="label">Q1 - Personal Portfolio</p>
+
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Hello! I am Dhruv Ranjan, a student and aspiring
+                web developer. I enjoy creating simple and responsive
+                websites using HTML and CSS.
+            </p>
+
+            <a href="#q7" class="button">Contact Me</a>
+        </div>
+
+        <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80"
+            alt="Profile Image"
+            class="profile-image"
+        >
+
+    </main>
+
+    <footer>
+        © 2026 Dhruv Ranjan
+    </footer>
+
+</section>
+
+
+<!-- =====================================================
+     Q2. ABOUT A CITY
+     Multiple sections, gradients and fixed backgrounds
+     ===================================================== -->
+
+<section id="q2" class="question q2">
+
+    <header class="city-header">
+        <h1>Q2 - About Delhi</h1>
+
+        <nav>
+            <a href="#q1">Home</a>
+            <a href="#q3">Team</a>
+            <a href="#q10">Complete Page</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="city-section city-hero">
+            <h2>Delhi - The Heart of India</h2>
+
+            <p>
+                Delhi is a historic city famous for its monuments,
+                food, culture and modern lifestyle.
+            </p>
+        </section>
+
+
+        <section class="city-section linear">
+            <h2>History</h2>
+
+            <p>
+                Delhi has a rich history and has been home to
+                many kingdoms and empires.
+            </p>
+        </section>
+
+
+        <section class="city-section radial">
+            <h2>Culture</h2>
+
+            <p>
+                Delhi has a mixture of traditional culture,
+                modern entertainment, art and delicious food.
+            </p>
+        </section>
+
+
+        <section class="city-section city-fixed">
+            <h2>Famous Places</h2>
+
+            <p>
+                India Gate, Red Fort, Qutub Minar and Lotus Temple
+                are some famous places in Delhi.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        Q2 - About Delhi
+    </footer>
+
+</section>
+
+
+<!-- =====================================================
+     Q3. TEAM MEMBERS
+     Three cards using flexbox and responsive design
+     ===================================================== -->
+
+<section id="q3" class="question q3">
+
+    <header>
+        <p class="label">Q3</p>
+        <h1>Team Members</h1>
+        <p>Our Web Development Team</p>
+    </header>
+
+    <main class="team-container">
+
+        <article class="team-card team-lead">
+
+            <div class="avatar">A</div>
+
+            <h2>Aman</h2>
+
+            <h3>Team Lead</h3>
+
+            <p>
+                Manages the project, coordinates the team
+                and reviews important changes.
+            </p>
+
+        </article>
+
+
+        <article class="team-card">
+
+            <div class="avatar">K</div>
+
+            <h2>Katherin</h2>
+
+            <h3>Feature Developer</h3>
+
+            <p>
+                Develops new features and writes clean
+                and maintainable code.
+            </p>
+
+        </article>
+
+
+        <article class="team-card">
+
+            <div class="avatar">J</div>
+
+            <h2>John</h2>
+
+            <h3>Tester / Reviewer</h3>
+
+            <p>
+                Tests features, finds bugs and reviews
+                the application.
+            </p>
+
+        </article>
+
+    </main>
+
+</section>
+
+
+<!-- =====================================================
+     Q4. LONG ARTICLE
+     Five paragraphs, first-letter, first-line, mark and blockquote
+     ===================================================== -->
+
+<section id="q4" class="question q4">
+
+    <header class="article-header">
+
+        <p class="label">Q4 - Long Article</p>
+
+        <h1>The Importance of Web Development</h1>
+
+        <p>
+            Author: Dhruv Ranjan |
+            Publication Date: September 11, 2026
+        </p>
+
+    </header>
+
+
+    <article>
+
+        <p>
+            Web development is an important skill in the modern
+            digital world. Learning HTML and CSS gives students
+            a strong foundation for creating websites.
+        </p>
+
+
+        <p>
+            HTML provides the structure of a webpage while CSS
+            controls its appearance. Together, they help developers
+            create attractive and useful websites.
+        </p>
+
+
+        <blockquote>
+            Good web design makes information easier to understand
+            and creates a better experience for users.
+        </blockquote>
+
+
+        <p>
+            Responsive design is another important part of modern
+            web development. A responsive website can adjust its
+            layout for desktops, tablets and mobile phones.
+        </p>
+
+
+        <p>
+            Developers also need to understand
+            <mark>accessibility</mark> and usability. Clear headings,
+            readable text and proper colors make websites easier
+            to use.
+        </p>
+
+
+        <p>
+            Regular practice is the best way to improve web
+            development skills. Students can create portfolios,
+            forms and small applications to improve their skills.
+        </p>
+
+    </article>
+
+</section>
+
+
+<!-- =====================================================
+     Q5. PRICING TABLE
+     Three plans with hover effect and transition
+     ===================================================== -->
+
+<section id="q5" class="question q5">
+
+    <header>
+        <p class="label">Q5</p>
+        <h1>Pricing Plans</h1>
+    </header>
+
+
+    <main class="pricing-container">
+
+        <article class="pricing-card">
+
+            <h2>Basic</h2>
+
+            <div class="price">
+                ₹299
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>5 Projects</li>
+                <li>Basic Support</li>
+                <li>1 GB Storage</li>
+                <li>Community Access</li>
+            </ul>
+
+            <a href="#" class="price-button">
+                Choose Basic
+            </a>
+
+        </article>
+
+
+        <article class="pricing-card popular">
+
+            <div class="popular-label">
+                Most Popular
+            </div>
+
+            <h2>Standard</h2>
+
+            <div class="price">
+                ₹599
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>15 Projects</li>
+                <li>Priority Support</li>
+                <li>10 GB Storage</li>
+                <li>Analytics</li>
+            </ul>
+
+            <a href="#" class="price-button">
+                Choose Standard
+            </a>
+
+        </article>
+
+
+        <article class="pricing-card">
+
+            <h2>Premium</h2>
+
+            <div class="price">
+                ₹999
+                <span>/month</span>
+            </div>
+
+            <ul>
+                <li>Unlimited Projects</li>
+                <li>Premium Support</li>
+                <li>50 GB Storage</li>
+                <li>Advanced Analytics</li>
+            </ul>
+
+            <a href="#" class="price-button">
+                Choose Premium
+            </a>
+
+        </article>
+
+    </main>
+
+</section>
+
+
+<!-- =====================================================
+     Q6. PHOTO GALLERY
+     Six images, grid, hover scale and caption overlay
+     ===================================================== -->
+
+<section id="q6" class="question q6">
+
+    <header>
+        <p class="label">Q6</p>
+        <h1>Photo Gallery</h1>
+    </header>
+
+
+    <main class="gallery">
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80"
+                alt="Mountain"
+            >
+            <figcaption>Mountain View</figcaption>
+        </figure>
+
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+                alt="Lake"
+            >
+            <figcaption>Beautiful Lake</figcaption>
+        </figure>
+
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                alt="Beach"
+            >
+            <figcaption>Sunny Beach</figcaption>
+        </figure>
+
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                alt="Nature"
+            >
+            <figcaption>Green Nature</figcaption>
+        </figure>
+
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80"
+                alt="Forest"
+            >
+            <figcaption>Deep Forest</figcaption>
+        </figure>
+
+
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80"
+                alt="Landscape"
+            >
+            <figcaption>Open Landscape</figcaption>
+        </figure>
+
+    </main>
+
+</section>
+
+
+<!-- =====================================================
+     Q7. CONTACT FORM
+     Semantic form with focus effect
+     ===================================================== -->
+
+<section id="q7" class="question q7">
+
+    <main class="contact-container">
+
+        <form class="contact-form">
+
+            <p class="label">Q7 - Contact Page</p>
+
+            <h1>Contact Us</h1>
+
+
+            <label for="name">Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+
+            <label for="subject">Subject</label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Enter subject"
+            >
+
+
+            <label for="message">Message</label>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message"
+            ></textarea>
+
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </main>
+
+</section>
+
+
+<!-- =====================================================
+     Q8. DASHBOARD
+     Fixed header, sidebar and main content boxes
+     ===================================================== -->
+
+<section id="q8" class="question q8">
+
+    <header class="dashboard-header">
+        <h1>Q8 - Student Dashboard</h1>
+    </header>
+
+
+    <div class="dashboard-layout">
+
+        <aside class="sidebar">
+
+            <a href="#q8">Dashboard</a>
+            <a href="#q4">Results</a>
+            <a href="#q7">Profile</a>
+            <a href="#q10">Settings</a>
+
+        </aside>
+
+
+        <main class="dashboard-content">
+
+            <div class="dashboard-box">
+
+                <h2>Student Information</h2>
+
+                <p>Name: Dhruv Ranjan</p>
+                <p>Course: Computer Science</p>
+                <p>Semester: 5th</p>
+
+            </div>
+
+
+            <div class="dashboard-box">
+
+                <h2>Recent Results</h2>
+
+                <p>Web Development: 88%</p>
+                <p>Database: 84%</p>
+                <p>Computer Networks: 82%</p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     Q9. NEWSPAPER / MAGAZINE
+     Three columns, column-span and floating image
+     ===================================================== -->
+
+<section id="q9" class="question q9">
+
+    <main class="magazine">
+
+        <h1>Q9 - Digital Magazine</h1>
+
+
+        <div class="columns">
+
+            <h2>Technology and the Future</h2>
+
+
+            <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80"
+                alt="Technology"
+                class="float-image"
+            >
+
+
+            <p>
+                Technology is changing the way people communicate,
+                study and work. Digital tools have made information
+                available to millions of people around the world.
+            </p>
+
+
+            <p>
+                Modern websites are designed to work across many
+                devices. Responsive layouts, flexible images and
+                readable typography help users enjoy websites.
+            </p>
+
+
+            <p>
+                Artificial intelligence, cloud computing and mobile
+                applications are becoming important parts of modern
+                technology.
+            </p>
+
+
+            <p>
+                The future of technology depends on responsible
+                development. Security, privacy and accessibility
+                should be considered while creating digital products.
+            </p>
+
+
+            <p>
+                Learning technology is a continuous process.
+                Regular practice, teamwork and problem solving help
+                students improve their skills.
+            </p>
+
+        </div>
+
+    </main>
+
+</section>
+
+
+<!-- =====================================================
+     Q10. COMPLETE WEBPAGE
+     Header, hero, about, services, contact and footer
+     ===================================================== -->
+
+<section id="q10" class="question q10">
+
+    <header class="complete-header">
+
+        <h1>Creative Studio</h1>
+
+        <nav>
+            <a href="#q10">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h2>Welcome to Creative Studio</h2>
+
+            <p>
+                We create modern and responsive websites.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+
+        <div class="about-text">
+
+            <p class="label">About Us</p>
+
+            <h2>Building Ideas into Websites</h2>
+
+            <p>
+                Our studio creates clean, responsive and
+                user-friendly websites using modern technologies.
+            </p>
+
+        </div>
+
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+                alt="Creative Office"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section id="services" class="services">
+
+        <p class="label">Our Services</p>
+
+        <h2>What We Do</h2>
+
+
+        <div class="services-container">
+
+            <article class="service-box">
+
+                <h3>Web Design</h3>
+
+                <p>
+                    Modern layouts with clean and attractive designs.
+                </p>
+
+            </article>
+
+
+            <article class="service-box">
+
+                <h3>Development</h3>
+
+                <p>
+                    Responsive websites using modern technologies.
+                </p>
+
+            </article>
+
+
+            <article class="service-box">
+
+                <h3>Support</h3>
+
+                <p>
+                    Testing, maintenance and continuous improvements.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="complete-contact">
+
+        <form>
+
+            <p class="label">Contact Us</p>
+
+            <h2>Send a Message</h2>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+            >
+
+            <textarea
+                rows="4"
+                placeholder="Your Message"
+            ></textarea>
+
+            <button type="submit">
+                Send
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <footer>
+        © 2026 Creative Studio. All Rights Reserved.
+    </footer>
+
+
+    <a href="#q1" class="top-button">↑</a>
+
+</section>
+
+</body>
+</html>

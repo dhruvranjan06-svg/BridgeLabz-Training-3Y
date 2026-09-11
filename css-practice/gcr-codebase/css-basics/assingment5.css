@@ -1,0 +1,644 @@
+/* ================= Q1 ================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.question {
+    min-height: 100vh;
+    padding: 60px 7%;
+    border-bottom: 5px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Q1 Portfolio */
+
+.q1 {
+    display: flex;
+    flex-direction: column;
+    background: #eaf4ff;
+}
+
+.portfolio-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    background: #12355b;
+    color: white;
+    z-index: 10;
+}
+
+.portfolio-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-header a {
+    color: white;
+}
+
+.portfolio-main {
+    margin-top: 60px;
+    min-height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-text {
+    width: 50%;
+}
+
+.portfolio-text h2 {
+    font-size: 3rem;
+}
+
+.portfolio-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.profile-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+}
+
+.button,
+.price-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #1769aa;
+    color: white;
+    border-radius: 6px;
+}
+
+.q1 footer,
+.q2 footer,
+.q10 footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    background: #12355b;
+    color: white;
+}
+
+
+/* ================= Q2 ================= */
+
+.q2 {
+    padding: 0;
+}
+
+.city-header {
+    padding: 20px 7%;
+    background: #203a43;
+    color: white;
+}
+
+.city-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.city-header a {
+    color: white;
+}
+
+.city-section {
+    min-height: 60vh;
+    padding: 80px 10%;
+}
+
+.city-section h2 {
+    font-size: 3rem;
+}
+
+.city-section p {
+    font-size: 1.2rem;
+}
+
+.city-hero,
+.city-fixed {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.city-hero {
+    background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1600&q=80");
+}
+
+.city-fixed {
+    background-image: url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1600&q=80");
+}
+
+.linear {
+    background: linear-gradient(120deg, #dbeafe, #c4b5fd);
+}
+
+.radial {
+    background: radial-gradient(circle, #fef3c7, #fca5a5);
+}
+
+
+/* ================= Q3 ================= */
+
+.q3 {
+    background: #eef4f8;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    gap: 25px;
+}
+
+.team-card {
+    flex: 1;
+    padding: 30px;
+    margin: 10px;
+    background: white;
+    border: 2px solid #aaa;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #bbb;
+}
+
+.team-lead {
+    background: #dbeafe;
+    border: 3px solid #2563eb;
+}
+
+.avatar {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* ================= Q4 ================= */
+
+.q4 {
+    background: #fffdf5;
+}
+
+.article-header {
+    text-align: center;
+}
+
+.article-header h1 {
+    font-size: 3rem;
+}
+
+.q4 article {
+    max-width: 850px;
+    margin: auto;
+}
+
+.q4 article p {
+    margin: 25px 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.q4 article p::first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.q4 article p::first-line {
+    font-weight: bold;
+}
+
+mark {
+    background: #ffe08a;
+}
+
+blockquote {
+    padding: 20px;
+    background: #dff3ff;
+    border-left: 6px solid #1683b8;
+}
+
+
+/* ================= Q5 ================= */
+
+.q5 {
+    text-align: center;
+    background: #f5f7fa;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.pricing-card {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #ccc;
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    background: #e8f2ff;
+}
+
+.popular {
+    border: 3px solid orange;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pricing-card li {
+    margin: 12px;
+}
+
+
+/* ================= Q6 ================= */
+
+.q6 {
+    background: #17202a;
+    color: white;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery figure {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #000;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+}
+
+.gallery figure:hover img {
+    transform: scale(1.1);
+}
+
+.gallery figure:hover figcaption {
+    opacity: 1;
+}
+
+
+/* ================= Q7 ================= */
+
+.q7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0f2fe;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #aaa;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+.contact-form button,
+.complete-contact button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 7px;
+    background: #12355b;
+    color: white;
+}
+
+
+/* ================= Q8 ================= */
+
+.q8 {
+    padding: 0;
+    background: #f1f5f9;
+}
+
+.dashboard-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+    z-index: 5;
+}
+
+.dashboard-layout {
+    min-height: 100vh;
+    padding-top: 75px;
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    min-height: calc(100vh - 75px);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #1e293b;
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.dashboard-box {
+    flex: 1;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 5px 15px #ccc;
+    border-radius: 10px;
+}
+
+
+/* ================= Q9 ================= */
+
+.q9 {
+    background: #e7e5e4;
+}
+
+.magazine {
+    padding: 35px;
+    background: #fffdf5;
+}
+
+.magazine > h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.columns {
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.columns h2 {
+    column-span: all;
+    text-align: center;
+}
+
+.float-image {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+
+/* ================= Q10 ================= */
+
+.q10 {
+    padding: 0;
+}
+
+.complete-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    background: #0f172a;
+    color: white;
+}
+
+.complete-header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.complete-header a {
+    color: white;
+}
+
+.hero {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.3)),
+        url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80")
+        center / cover;
+}
+
+.hero-text {
+    position: absolute;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    outline: 4px solid rgba(255,255,255,.3);
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+}
+
+.about {
+    padding: 70px 8%;
+    display: flex;
+    gap: 50px;
+    background: linear-gradient(120deg, #eff6ff, #e0e7ff);
+}
+
+.about-text,
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border: 8px solid white;
+    outline: 2px solid #2563eb;
+    border-radius: 12px;
+}
+
+.services {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+}
+
+.service-box {
+    flex: 1;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.complete-contact {
+    padding: 70px 8%;
+    background: #dbeafe;
+}
+
+.complete-contact form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border: 2px solid #93c5fd;
+    border-radius: 12px;
+}
+
+.complete-contact input,
+.complete-contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 12px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 600px) {
+
+    .portfolio-main,
+    .team-container,
+    .pricing-container,
+    .about,
+    .services-container,
+    .dashboard-content {
+        flex-direction: column;
+    }
+
+    .portfolio-text {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .columns {
+        column-count: 1;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .dashboard-layout {
+        flex-direction: column;
+    }
+
+    .complete-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .portfolio-header {
+        position: static;
+    }
+
+    .portfolio-main {
+        margin-top: 0;
+    }
+}
